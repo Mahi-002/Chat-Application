@@ -21,10 +21,6 @@ const User=sequelize.define("user",{
         allowNull:false
         },
         isPremiumUser: { type: Sequelize.BOOLEAN, defaultValue:0 },
-  totalExpense: {
-    type: Sequelize.FLOAT,
-    defaultValue: 0,
-  },
   resetToken: {
     type: Sequelize.STRING,
     allowNull: true,
